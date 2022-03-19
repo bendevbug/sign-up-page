@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+body:not(.caixa-texto) {
+    background-color: hsl(0, 100%, 74%);
+}
+
+.bg-rosa {
+    background-image: url(images/bg-intro-desktop.png);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    border: 1px solid red;
+}
+
+
+/* conteúdo */
+
+.caixa-texto {
+    margin-top: 30%;
+    color: white;
+}
+
+.btn {
+    position: relative;
+}
