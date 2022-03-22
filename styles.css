@@ -22,6 +22,80 @@ body:not(.caixa-texto) {
     color: white;
 }
 
-.btn {
+h1 span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.caixa-texto p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+
+/* caixa signup */
+
+.caixa-signup {
+    margin-top: 30%;
     position: relative;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+}
+
+.form-signup input {
+    padding: 20px 20px;
+}
+
+.form-signup input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.text-signup {
+    margin-bottom: 5%;
+    font-size: 1.2rem;
+    background-color: hsl(248, 32%, 49%);
+    border-radius: 20px;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-signup span {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.button-submit {
+    color: white;
+    border: none;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 10px 20px;
+    background-color: rgb(36, 3, 67);
+    border-radius: 30px;
+}
+
+.button-submit:hover {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border: none;
+    background-color: rgb(92, 9, 170);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
